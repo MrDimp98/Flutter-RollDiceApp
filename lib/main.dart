@@ -14,9 +14,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Color(0xFF003566)),
       ),
-      home: const MyHomePage(title: 'Roll Dice App'),
+      home: const MyHomePage(title: 'Roll Mo Dice Ko'),
     );
   }
 }
@@ -37,7 +37,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.purple,
+        backgroundColor: Color(0xFF003566),
         title: AppBarText(widget.title)
       ),
   
